@@ -1,0 +1,78 @@
+{
+  "theme": {
+    "mode": "dark_and_vibrant_clash",
+    "primary_bg": "#0D080B",
+    "secondary_bg": "#4A001F",
+    "cream_bg": "#FAF7F2",
+    "hot_pink": "#FF007A",
+    "deep_maroon": "#3B0014",
+    "neon_yellow": "#CCFF00",
+    "electric_lime": "#10B981",
+    "vibrant_orange": "#FF5500",
+    "text_main": "#FAF7F2",
+    "text_dark": "#0D080B",
+    "text_muted": "#A1989E"
+  },
+  "typography": {
+    "body_font": "Inter, sans-serif",
+    "heading_serif": "'Instrument Serif', serif",
+    "heading_scales": {
+      "hero_title": "text-5xl sm:text-7xl lg:text-9xl font-extrabold tracking-tighter leading-none",
+      "serif_emphasis": "font-serif italic font-normal tracking-tight text-pink-500",
+      "section_h2": "text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight",
+      "h3_title": "text-2xl sm:text-3xl font-bold",
+      "overline_tag": "text-xs font-mono uppercase tracking-[0.25em] text-yellow-400"
+    }
+  },
+  "visual_enhancers": {
+    "grain_overlay": "repeating radial texture or CSS SVG noise overlay with opacity-20 pointer-events-none mix-blend-overlay",
+    "halftone_pattern": "radial-gradient(#FF007A 1px, transparent 1px) [background-size:16px_16px]",
+    "sticker_badges": "inline-block rotate-[-3deg] bg-yellow-300 text-black font-extrabold px-3 py-1 rounded-sm border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] uppercase text-xs",
+    "desi_annotations": "handwritten serif notes with stroke accents, 'arre yaar', 'haan bhai', 'bhai, iconic hai'",
+    "poster_borders": "border-4 border-black dark:border-white/20 shadow-[8px_8px_0px_0px_#FF007A]"
+  },
+  "image_urls": {
+    "genz_streetwear_pink": "https://images.unsplash.com/photo-1637059490586-9f1197ba4f61?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBHZW4lMjBaJTIwZmFzaGlvbiUyMGNyZWF0aXZlJTIwY29sbGFnZSUyMHBvcnRyYWl0JTIwc3RyZWV0d2VhciUyMG5lb24lMjB1cmJhbnxlbnwwfHx8fDE3ODg3NjI5NzJ8MA&ixlib=rb-4.1.0&q=85",
+    "genz_creative_man": "https://images.unsplash.com/photo-1560085911-ce42861f221f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBHZW4lMjBaJTIwZmFzaGlvbiUyMGNyZWF0aXZlJTIwY29sbGFnZSUyMHBvcnRyYWl0JTIwc3RyZWV0d2VhciUyMG5lb24lMjB1cmJhbnxlbnwwfHx8fDE3ODg3NjI5NzJ8MA&ixlib=rb-4.1.0&q=85",
+    "desi_pop_art_food": "https://images.unsplash.com/photo-1599682303048-8689078dd687?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwxfHxxdWlya3klMjBJbmRpYW4lMjBmb29kJTIwcG9wJTIwYXJ0JTIwY3JlYXRpdmUlMjBncmFwaGljJTIwZGVzaWduJTIwdmlicmFudCUyMGNvbG9yZnVsfGVufDB8fHx8MTc4ODc2Mjk3Mnww&ixlib=rb-4.1.0&q=85",
+    "pop_abstract_poster": "https://images.unsplash.com/photo-1594845281364-63dbe90f37f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHozfHx2aWJyYW50JTIwZWRpdG9yaWFsJTIwcG9zdGVyJTIwYXJ0JTIwcG9wJTIwY29sbGFnZSUyMHBpbmslMjB5ZWxsb3d8ZW58MHx8fHwxNzg4NzYyOTgwfDA&ixlib=rb-4.1.0&q=85"
+  },
+  "component_structure": {
+    "navbar": "src/components/Navbar.js - Adaptive bg based on scroll/section, DAFTAR left logo, links, 'Let's Talk ↗' magnetic CTA, mobile drawer",
+    "hero": "src/components/HeroSection.js - Kinetic hero with masked line-by-line reveal signature on-load, cursor parallax stickers (pigeon, desi doodle, phone, 'arre yaar' bubble)",
+    "philosophy": "src/components/PhilosophySection.js - 'We think different' glitch/cross-out to 'Actually, thinking different isn't our forte. Understanding YOU is.'",
+    "brand_switcher": "src/components/BrandSwitcherSection.js - 4 interactive personalities: Fintech (sharp/serious), Streetwear (loud/chaotic), SaaS (clean/intelligent), Food (playful/desi)",
+    "capabilities": "src/components/CapabilitiesSection.js - Business situation triggers ('I have a brand', 'I built a SaaS', 'Launching new') with capability reveals",
+    "partner_ecosystem": "src/components/PartnerEcosystem.js - Interactive orbiting node diagram with DAFTAR at center and orbiting partner types",
+    "who_we_work_with": "src/components/WhoWeWorkWith.js - Relatable situation cards (e.g. 'Brand whose Instagram needs therapy')",
+    "services_posters": "src/components/ServicesPosters.js - Poster-style card grid for Brand, Creative, Growth, Digital, Launch with stickers & hover microcopy",
+    "case_studies": "src/components/CaseStudiesSection.js - Horizontal scroll / pinned sticky cards with oversized metrics (+184%, 3.2X ROAS)",
+    "industry_myth": "src/components/IndustryMythSection.js - 'Have you worked in my industry? Probably. But that's not the point.'",
+    "daftar_difference": "src/components/DaftarDifference.js - Things we don't do (❌ cards) vs Things we do (✓ cards)",
+    "social_proof": "src/components/SocialProofSection.js - Testimonials styled as Instagram comments, WhatsApp bubbles, and handwritten notes ('Bhai, this is exactly what we were trying to say.')",
+    "process_desi": "src/components/ProcessDesiSection.js - 6 Desi Steps: Batao / Samjho / Socho / Banao / Chalao / Phir dekho",
+    "big_conversion": "src/components/BigConversionSection.js - High visual impact CTA banner at 70% scroll depth",
+    "final_footer": "src/components/FooterSection.js - Large pink section + complete editorial footer",
+    "contact_page": "src/components/ContactFunnel.js - 10-step conversational lead qualification form with database state & success state"
+  },
+  "motion_and_interactions": {
+    "lenis": "Smooth scrolling setup on root container",
+    "framer_motion": "InView trigger reveals, line masks, floating sticker spring physics, magnetic button hover",
+    "microcopy_hovers": {"different": "haan bhai", "strategy": "not another 87-slide deck", "Let's Talk ↗": "Chalo baat karte hain ↗"},
+    "accessibility": "Respect prefers-reduced-motion via Framer Motion useReducedMotion hook"
+  },
+  "instructions_to_main_agent": [
+    "Ensure all interactive buttons, inputs, tabs, and navigation links feature explicit data-testid attributes formatted in kebab-case.",
+    "Do NOT use pure white or generic template backgrounds. Use rich deep maroon (#3B0014) mixed with midnight charcoal (#0D080B) and warm cream (#FAF7F2).",
+    "Combine bold sans typography (Inter) with decorative serif headlines ('Instrument Serif') for high emotional impact.",
+    "Implement the 10-step contact form cleanly with clear progress indicators, multi-select tags, and instant feedback states.",
+    "Include responsive fallback controls for touch devices where hover interactions are limited."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Create depth through layered design elements with z-index hierarchy and grain textures.",
+    "Use glass-morphism effects with backdrop filters where appropriate.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations.",
+    "Do NOT center align the app container (.App { text-align: center; }). Keep natural reading hierarchy.",
+    "All interactive elements MUST include data-testid attributes."
+  ]
+}

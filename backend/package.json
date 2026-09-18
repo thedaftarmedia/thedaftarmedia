@@ -1,0 +1,12 @@
+{
+  "name": "daftar-media-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.27.3"
+  }
+}
