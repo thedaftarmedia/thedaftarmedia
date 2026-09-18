@@ -5,7 +5,7 @@ import { MaskedLines, Magnetic, EASE } from "../lib/motion";
 import { scrollToHash } from "./Navbar";
 
 const STICKERS = [
-  { src: "/assets/logo/logo.png", alt: "daftar-logo", cls: "top-[26%] right-[14%] w-[2rem] md:top-[24%] md:right-[0%] md:w-[44rem]", depth: 1.5, rot: 8, dur: 5.2 },
+  { src: "/assets/logo/logo.png", alt: "daftar-logo", cls: "top-[26%] right-[14%] w-[2rem] md:top-[24%] md:right-[5%] md:w-[32rem]", depth: 1.5, rot: 8, dur: 5.2 },
 ];
 
 function Sticker({ s, mx, my }) {
